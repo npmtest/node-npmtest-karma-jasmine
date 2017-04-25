@@ -1,6 +1,6 @@
 # npmtest-karma-jasmine
 
-#### test coverage for  [karma-jasmine (v1.1.0)](https://github.com/karma-runner/karma-jasmine#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-karma-jasmine.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-karma-jasmine) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-karma-jasmine.svg)](https://travis-ci.org/npmtest/node-npmtest-karma-jasmine)
+#### basic test coverage for  [karma-jasmine (v1.1.0)](https://github.com/karma-runner/karma-jasmine#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-karma-jasmine.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-karma-jasmine) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-karma-jasmine.svg)](https://travis-ci.org/npmtest/node-npmtest-karma-jasmine)
 
 #### A Karma plugin - adapter for Jasmine testing framework.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-karma-jasmine/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-karma-jasmine/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-karma-jasmine/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-karma-jasmine/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-karma-jasmine/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-karma-jasmine/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-karma-jasmine/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-karma-jasmine/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-karma-jasmine/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-karma-jasmine/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-karma-jasmine/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-karma-jasmine/build/coverage.html/index.html)
 
@@ -175,7 +175,8 @@
     "scripts": {
         "test": "grunt test"
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
